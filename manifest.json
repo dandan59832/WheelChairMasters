@@ -1,30 +1,21 @@
 {
-	"dependencies": [],
-	"description": "Description of your mod...",
-	"extra": {
-		"godot": {
-			"authors": [
-				"AuthorName"
-			],
-			"compatible_game_version": [
-				"0.0.1"
-			],
-			"compatible_mod_loader_version": [
-				"7.0.0"
-			],
-			"config_schema": {
-
-			},
-			"description_rich": "",
-			"image": null,
-			"incompatibilities": [],
-			"load_before": [],
-			"optional_dependencies": [],
-			"tags": []
-		}
-	},
-	"name": "wheelchairwankers",
-	"namespace": "wankers",
-	"version_number": "0.0.1",
-	"website_url": "https://github.com/exampleauthor/examplemod"
+    "name": "wheelchairwankers",
+    "namespace": "wankers",
+    "version_number": "0.0.1",
+    "description": "Mod description goes here",
+    "website_url": "https://github.com/dandan59832/WheelChairMasters",
+    "dependencies": [],
+    "extra": {
+        "godot": {
+            "authors": ["materwelone", "potatoboi", "creabit"],
+            "tags": ["fun", "more fun"],
+            "description_rich": "",
+            "optional_dependencies": [],
+            "load_before": [],
+            "incompatibilities": [],
+            "compatible_mod_loader_version": ["7.0.0"],
+            "compatible_game_version": ["0.0.1"],
+            "config_schema": {}
+        }
+    }
 }
