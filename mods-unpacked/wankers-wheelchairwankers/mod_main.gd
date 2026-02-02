@@ -28,9 +28,14 @@ func _init() -> void:
 	install_script_extensions()
 	# install_script_hook_files()
 
+	ModLoaderMod.add_hook(test_hook, "res://main.gd", "_ready")
+
 	# Add translations
 	add_translations()
 
+
+func test_hook() -> void:
+	ModLoaderLog.success("IT WORKS!!!", LOG_NAME)
 
 func install_script_extensions() -> void:
 	# ! any script extensions should go in this directory, and should follow the same directory structure as vanilla
