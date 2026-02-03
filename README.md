@@ -4,7 +4,8 @@ i hope youre not planning on using linux lmao
 
 ## Install First
 (GodotSteam)[https://codeberg.org/godotsteam/godotsteam/releases]
-(7-zip)[7-zip.org] (needed for properly zipping with .bat)
+(7-zip)[7-zip.org]
+(7-zip needed for properly zipping with .bat)
 
 ## Cloning the repo
 clone this NOT inside the project files.
